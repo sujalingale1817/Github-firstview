@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>Div</title>
+    <style>
+        body {
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+        }
+
+       .container {
+            width: 100vw;
+            height: 100vh;
+            overflow: scroll;
+            display: flex;
+            flex-direction: column;
+            border: 10px solid black;
+            
+        }
+        .Upper-container {
+        width: 100%;
+        height: 20%;
+        background-color: lime;
+       }
+       .Lower-container {
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-direction: row;
+       }
+       .left-Lower-container {
+        width: 50%;
+        height: 100%;
+        background-color: red;
+        
+       }
+       .right-Lower-container {
+        width: 50%;
+        height: 100%;
+        background-color: black;
+       }
+       .s1-left-Lower-container {
+        width: 50%;
+        height: 100%;
+        background-color: aqua;
+       }
+       s2-left-Lower-container {
+        width: 50%;
+        height: 100%;
+        background-color: purple;
+       }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Upper-container"></div>
+        <div class="Lower-container">
+            <div class="left-Lower-container"> 
+                <div class="s1-left-Lower-container"></div>
+                <div class="s2-right-Lower-container"></div>
+            </div>
+            <div class="right-Lower-container"></div>
+        </div>
+    </div>
+</body>
+</html>
